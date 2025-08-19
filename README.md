@@ -12,7 +12,11 @@
         * 根據 id 取得指定資料、根據 word 、 kana 、 romaji 參數查詢相關資料
     * **新增 git_commit_messages 資料夾，實現 git commit 生成**
     * **新增 jlpt_n1 備份資料夾**
+* 2025/08/20
+    * **新增 properties 設定說明**
 ---
+## properties 檔
+### [properties 設定](/markdown/properties_settings.md)
 ## 資料庫
 ### [資料庫初始化](/markdown/database_init.md)
 ### [資料庫額外新增](/markdown/database_new.md)
