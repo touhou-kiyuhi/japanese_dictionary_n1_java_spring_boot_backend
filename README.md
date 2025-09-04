@@ -1,4 +1,4 @@
-# japanese dictionary n1
+# japanese dictionary n1 Java Spring Boot Backend
 ## 更新日誌
 * 2025/08/19
     * **first commit**
@@ -8,12 +8,14 @@
         * Update
         * Delete
     * **實現 日語字典 查詢功能：(OthersCRUDController.java)**
-        * 取得所有資料
-        * 根據 id 取得指定資料、根據 word 、 kana 、 romaji 參數查詢相關資料
+        * 取得所有資料 (模糊查詢)
+        * 根據 word 、 kana 、 romaji 參數查詢相關資料 (Update、Delete)
     * **新增 git_commit_messages 資料夾，實現 git commit 生成**
     * **新增 jlpt_n1 備份資料夾**
 * 2025/08/20
     * **新增 properties 設定說明**
+* 2025/09/05
+    * **更新 README.md 說明**
 ---
 ## properties 檔
 ### [properties 設定](/markdown/properties_settings.md)
