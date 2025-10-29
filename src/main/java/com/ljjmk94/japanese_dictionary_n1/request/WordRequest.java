@@ -1,39 +1,26 @@
-package com.ljjmk94.japanese_dictionary_n1.format;
+package com.ljjmk94.japanese_dictionary_n1.request;
 
-import java.util.Date;
+public class WordRequest {
 
-public class Word {
-
-    private int id;
     private String word;
     private String kana;
     private String romaji;
     private String meaning;
     private String sentence;
     private String sentenceMeaning;
-    private Date createdDate;
-    private Date lastModifiedDate;
 
-    public Word() {}
-    
-    public Word(int id, String word, String kana, String romaji, String meaning, String sentence,
-            String sentenceMeaning, Date createdDate, Date lastModifiedDate) {
-        this.id = id;
+    public WordRequest() {}
+
+    public WordRequest(
+        String word, String kana, String romaji, String meaning, 
+        String sentence, String sentenceMeaning
+    ) {
         this.word = word;
         this.kana = kana;
         this.romaji = romaji;
         this.meaning = meaning;
         this.sentence = sentence;
         this.sentenceMeaning = sentenceMeaning;
-        this.createdDate = createdDate;
-        this.lastModifiedDate = lastModifiedDate;
-    }
-
-    public int getId() {
-        return id;
-    }
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getWord() {
@@ -76,20 +63,6 @@ public class Word {
     }
     public void setSentenceMeaning(String sentenceMeaning) {
         this.sentenceMeaning = sentenceMeaning;
-    }
-
-    public Date getCreatedDate() {
-        return createdDate;
-    }
-    public void setCreatedDate(Date createdDate) {
-        this.createdDate = createdDate;
-    }
-
-    public Date getLastModifiedDate() {
-        return lastModifiedDate;
-    }
-    public void setLastModifiedDate(Date lastModifiedDate) {
-        this.lastModifiedDate = lastModifiedDate;
     }
     
 }

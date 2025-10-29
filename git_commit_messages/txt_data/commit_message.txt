@@ -1,3 +1,8 @@
-docs (markdown/): 新增 properties 設定說明
+fix (/src/main): 修改整格架構
 
-新增 markdown/properties_settings.md 來說明 src/main/resources/application.properties 的內容
+將 font 改成 model
+新增 request、response、dto
+取消將 Controller、Service、Dao 放置名為 controller_service_dao 資料夾
+rowMapper 從 Dao 拆出來
+修改 API 路徑
+新增 exception

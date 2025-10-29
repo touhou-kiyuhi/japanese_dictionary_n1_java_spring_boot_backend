@@ -16,6 +16,13 @@
     * **新增 properties 設定說明**
 * 2025/09/05
     * **更新 README.md 說明**
+* 2025/10/29
+    * **將 font 改成 model**
+    * **新增 request、response、dto**
+    * **取消將 Controller、Service、Dao 放置名為 controller_service_dao 資料夾**
+    * **rowMapper 從 Dao 拆出來**
+    * **修改 API 路徑**
+    * **新增 exception**
 ---
 ## properties 檔
 ### [properties 設定](/markdown/properties_settings.md)

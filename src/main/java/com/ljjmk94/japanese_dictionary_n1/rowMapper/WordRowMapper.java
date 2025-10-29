@@ -1,11 +1,11 @@
-package com.ljjmk94.japanese_dictionary_n1.controller_service_dao.dao.rowMapper;
+package com.ljjmk94.japanese_dictionary_n1.rowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.ljjmk94.japanese_dictionary_n1.format.Word;
+import com.ljjmk94.japanese_dictionary_n1.model.Word;
 
 public class WordRowMapper implements RowMapper<Word> {
 

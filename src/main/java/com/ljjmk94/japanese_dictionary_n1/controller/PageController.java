@@ -1,4 +1,4 @@
-package com.ljjmk94.japanese_dictionary_n1.controller_service_dao.controller;
+package com.ljjmk94.japanese_dictionary_n1.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -25,5 +25,9 @@ public class PageController {
     public String update() {
         return "crud/update";
     }
-    
+    // DELETE
+    @GetMapping("/delete")
+    public String delete() {
+        return "crud/delete";
+    }
 }
